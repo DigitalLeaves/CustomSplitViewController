@@ -8,20 +8,56 @@
 
 /* Begin PBXBuildFile section */
 		6695F3081E1BCC6400E357D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6695F3071E1BCC6400E357D4 /* AppDelegate.swift */; };
-		6695F30A1E1BCC6400E357D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6695F3091E1BCC6400E357D4 /* ViewController.swift */; };
 		6695F30D1E1BCC6400E357D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6695F30B1E1BCC6400E357D4 /* Main.storyboard */; };
-		6695F30F1E1BCC6400E357D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6695F30E1E1BCC6400E357D4 /* Assets.xcassets */; };
 		6695F3121E1BCC6400E357D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6695F3101E1BCC6400E357D4 /* LaunchScreen.storyboard */; };
+		6695F31D1E1BD44A00E357D4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6695F31C1E1BD44A00E357D4 /* MainViewController.swift */; };
+		6695F31F1E1BD48200E357D4 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6695F31E1E1BD48200E357D4 /* ContainerViewController.swift */; };
+		6695F3211E1BD4C500E357D4 /* EmptySegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6695F3201E1BD4C500E357D4 /* EmptySegue.swift */; };
+		6695F3241E1BD67100E357D4 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6695F3231E1BD67100E357D4 /* ModelManager.swift */; };
+		6695F3261E1BD99000E357D4 /* PersonalInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6695F3251E1BD99000E357D4 /* PersonalInformationViewController.swift */; };
+		6695F3281E1BD9A500E357D4 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6695F3271E1BD9A500E357D4 /* LocationViewController.swift */; };
+		6695F32A1E1BD9AE00E357D4 /* CredentialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6695F3291E1BD9AE00E357D4 /* CredentialsViewController.swift */; };
+		6695F32C1E1BD9C900E357D4 /* ChangeFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6695F32B1E1BD9C900E357D4 /* ChangeFieldViewController.swift */; };
+		6695F32E1E1BDDC500E357D4 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6695F32D1E1BDDC500E357D4 /* Media.xcassets */; };
+		6695F3321E1BE0EA00E357D4 /* PersonalInformationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6695F3301E1BE0EA00E357D4 /* PersonalInformationTableViewCell.swift */; };
+		6695F3331E1BE0EA00E357D4 /* PersonalInformationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6695F3311E1BE0EA00E357D4 /* PersonalInformationTableViewCell.xib */; };
+		66A144811E1C014A008B7A8A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A144801E1C014A008B7A8A /* Person.swift */; };
+		66A144831E1C0FEF008B7A8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A144821E1C0FEE008B7A8A /* ViewController.swift */; };
+		66A144881E1C118A008B7A8A /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A144861E1C118A008B7A8A /* PersonTableViewCell.swift */; };
+		66A144891E1C118A008B7A8A /* PersonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66A144871E1C118A008B7A8A /* PersonTableViewCell.xib */; };
+		66A1448B1E1C2520008B7A8A /* CustomSplitContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A1448A1E1C2520008B7A8A /* CustomSplitContentViewController.swift */; };
+		66A1448E1E1C2A6D008B7A8A /* PersonDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A1448C1E1C2A6D008B7A8A /* PersonDetailsTableViewCell.swift */; };
+		66A1448F1E1C2A6D008B7A8A /* PersonDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66A1448D1E1C2A6D008B7A8A /* PersonDetailsTableViewCell.xib */; };
+		66A144921E1C31AF008B7A8A /* PersonOptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A144901E1C31AF008B7A8A /* PersonOptionTableViewCell.swift */; };
+		66A144931E1C31AF008B7A8A /* PersonOptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66A144911E1C31AF008B7A8A /* PersonOptionTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6695F3041E1BCC6400E357D4 /* CustomSplitControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomSplitControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6695F3071E1BCC6400E357D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6695F3091E1BCC6400E357D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6695F30C1E1BCC6400E357D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6695F30E1E1BCC6400E357D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6695F3111E1BCC6400E357D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6695F3131E1BCC6400E357D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6695F31C1E1BD44A00E357D4 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6695F31E1E1BD48200E357D4 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		6695F3201E1BD4C500E357D4 /* EmptySegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptySegue.swift; sourceTree = "<group>"; };
+		6695F3231E1BD67100E357D4 /* ModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		6695F3251E1BD99000E357D4 /* PersonalInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInformationViewController.swift; sourceTree = "<group>"; };
+		6695F3271E1BD9A500E357D4 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		6695F3291E1BD9AE00E357D4 /* CredentialsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CredentialsViewController.swift; sourceTree = "<group>"; };
+		6695F32B1E1BD9C900E357D4 /* ChangeFieldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeFieldViewController.swift; sourceTree = "<group>"; };
+		6695F32D1E1BDDC500E357D4 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		6695F3301E1BE0EA00E357D4 /* PersonalInformationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInformationTableViewCell.swift; sourceTree = "<group>"; };
+		6695F3311E1BE0EA00E357D4 /* PersonalInformationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalInformationTableViewCell.xib; sourceTree = "<group>"; };
+		66A144801E1C014A008B7A8A /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		66A144821E1C0FEE008B7A8A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66A144861E1C118A008B7A8A /* PersonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		66A144871E1C118A008B7A8A /* PersonTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonTableViewCell.xib; sourceTree = "<group>"; };
+		66A1448A1E1C2520008B7A8A /* CustomSplitContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSplitContentViewController.swift; sourceTree = "<group>"; };
+		66A1448C1E1C2A6D008B7A8A /* PersonDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		66A1448D1E1C2A6D008B7A8A /* PersonDetailsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		66A144901E1C31AF008B7A8A /* PersonOptionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonOptionTableViewCell.swift; sourceTree = "<group>"; };
+		66A144911E1C31AF008B7A8A /* PersonOptionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonOptionTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +90,72 @@
 		6695F3061E1BCC6400E357D4 /* CustomSplitControl */ = {
 			isa = PBXGroup;
 			children = (
-				6695F3071E1BCC6400E357D4 /* AppDelegate.swift */,
-				6695F3091E1BCC6400E357D4 /* ViewController.swift */,
-				6695F30B1E1BCC6400E357D4 /* Main.storyboard */,
-				6695F30E1E1BCC6400E357D4 /* Assets.xcassets */,
-				6695F3101E1BCC6400E357D4 /* LaunchScreen.storyboard */,
-				6695F3131E1BCC6400E357D4 /* Info.plist */,
+				6695F3191E1BD33200E357D4 /* App and Resources */,
+				6695F3221E1BD65A00E357D4 /* Model */,
+				6695F31A1E1BD41300E357D4 /* Storyboards */,
+				6695F31B1E1BD41D00E357D4 /* View controllers */,
+				6695F32F1E1BE0CD00E357D4 /* Views and Cells */,
 			);
 			path = CustomSplitControl;
+			sourceTree = "<group>";
+		};
+		6695F3191E1BD33200E357D4 /* App and Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6695F32D1E1BDDC500E357D4 /* Media.xcassets */,
+				6695F3071E1BCC6400E357D4 /* AppDelegate.swift */,
+				6695F3131E1BCC6400E357D4 /* Info.plist */,
+			);
+			name = "App and Resources";
+			sourceTree = "<group>";
+		};
+		6695F31A1E1BD41300E357D4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6695F30B1E1BCC6400E357D4 /* Main.storyboard */,
+				6695F3101E1BCC6400E357D4 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		6695F31B1E1BD41D00E357D4 /* View controllers */ = {
+			isa = PBXGroup;
+			children = (
+				66A144821E1C0FEE008B7A8A /* ViewController.swift */,
+				6695F31C1E1BD44A00E357D4 /* MainViewController.swift */,
+				6695F31E1E1BD48200E357D4 /* ContainerViewController.swift */,
+				6695F3201E1BD4C500E357D4 /* EmptySegue.swift */,
+				6695F3251E1BD99000E357D4 /* PersonalInformationViewController.swift */,
+				6695F3271E1BD9A500E357D4 /* LocationViewController.swift */,
+				6695F3291E1BD9AE00E357D4 /* CredentialsViewController.swift */,
+				6695F32B1E1BD9C900E357D4 /* ChangeFieldViewController.swift */,
+				66A1448A1E1C2520008B7A8A /* CustomSplitContentViewController.swift */,
+			);
+			name = "View controllers";
+			sourceTree = "<group>";
+		};
+		6695F3221E1BD65A00E357D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6695F3231E1BD67100E357D4 /* ModelManager.swift */,
+				66A144801E1C014A008B7A8A /* Person.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6695F32F1E1BE0CD00E357D4 /* Views and Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6695F3301E1BE0EA00E357D4 /* PersonalInformationTableViewCell.swift */,
+				6695F3311E1BE0EA00E357D4 /* PersonalInformationTableViewCell.xib */,
+				66A144861E1C118A008B7A8A /* PersonTableViewCell.swift */,
+				66A144871E1C118A008B7A8A /* PersonTableViewCell.xib */,
+				66A1448C1E1C2A6D008B7A8A /* PersonDetailsTableViewCell.swift */,
+				66A1448D1E1C2A6D008B7A8A /* PersonDetailsTableViewCell.xib */,
+				66A144901E1C31AF008B7A8A /* PersonOptionTableViewCell.swift */,
+				66A144911E1C31AF008B7A8A /* PersonOptionTableViewCell.xib */,
+			);
+			name = "Views and Cells";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +219,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6695F3121E1BCC6400E357D4 /* LaunchScreen.storyboard in Resources */,
-				6695F30F1E1BCC6400E357D4 /* Assets.xcassets in Resources */,
+				6695F32E1E1BDDC500E357D4 /* Media.xcassets in Resources */,
+				6695F3331E1BE0EA00E357D4 /* PersonalInformationTableViewCell.xib in Resources */,
 				6695F30D1E1BCC6400E357D4 /* Main.storyboard in Resources */,
+				66A144891E1C118A008B7A8A /* PersonTableViewCell.xib in Resources */,
+				66A144931E1C31AF008B7A8A /* PersonOptionTableViewCell.xib in Resources */,
+				66A1448F1E1C2A6D008B7A8A /* PersonDetailsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +235,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6695F30A1E1BCC6400E357D4 /* ViewController.swift in Sources */,
+				66A1448E1E1C2A6D008B7A8A /* PersonDetailsTableViewCell.swift in Sources */,
+				6695F3281E1BD9A500E357D4 /* LocationViewController.swift in Sources */,
+				66A144881E1C118A008B7A8A /* PersonTableViewCell.swift in Sources */,
+				6695F31D1E1BD44A00E357D4 /* MainViewController.swift in Sources */,
+				6695F31F1E1BD48200E357D4 /* ContainerViewController.swift in Sources */,
+				6695F3241E1BD67100E357D4 /* ModelManager.swift in Sources */,
+				66A144811E1C014A008B7A8A /* Person.swift in Sources */,
 				6695F3081E1BCC6400E357D4 /* AppDelegate.swift in Sources */,
+				66A144831E1C0FEF008B7A8A /* ViewController.swift in Sources */,
+				6695F3211E1BD4C500E357D4 /* EmptySegue.swift in Sources */,
+				6695F3321E1BE0EA00E357D4 /* PersonalInformationTableViewCell.swift in Sources */,
+				66A1448B1E1C2520008B7A8A /* CustomSplitContentViewController.swift in Sources */,
+				6695F3261E1BD99000E357D4 /* PersonalInformationViewController.swift in Sources */,
+				66A144921E1C31AF008B7A8A /* PersonOptionTableViewCell.swift in Sources */,
+				6695F32C1E1BD9C900E357D4 /* ChangeFieldViewController.swift in Sources */,
+				6695F32A1E1BD9AE00E357D4 /* CredentialsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +379,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Ignacio-Nieto-Carvajal.CustomSplitControl";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -280,6 +393,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Ignacio-Nieto-Carvajal.CustomSplitControl";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -302,6 +416,7 @@
 				6695F3181E1BCC6400E357D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

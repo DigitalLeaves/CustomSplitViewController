@@ -1,6 +1,6 @@
 # Towards Better Split View Controllers (I): Our Custom Split Controller
 
-![http://digitalleaves.com/blog/wp-content/uploads/2017/01/mini1483525011.png](http://digitalleaves.com/blog/wp-content/uploads/2017/01/mini1483525011.png)
+![http://digitalleaves.com/wp-content/uploads/2017/01/mini1483525011.png](http://digitalleaves.com/blog/wp-content/uploads/2017/01/mini1483525011.png)
 
 UISplitViewController is one of the most basic controllers in iOS, and can be found in many Apple applications. However, when you have a look at 3rd party applications, specially those that mind the details, you will notice that it’s not a very popular choice. Why is that? Well, there are several reasons. First of all, its appearance configuration options are really limited, what you see is what you get. You cannot really mess with the structure of the master-detail frame, their sizes, the segue animations and a lot of other things without hacking around with it, but the most important limitation of UISplitViewController is the fact that all detail screens have to share the same format and structure.
 
